@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>patient SignUp</title>
+</head>
+
+<body>
+  <header align="center">
+    <h1>
+      <font color="orange">
+        <b>Apollo Hospitals</b>
+      </font>
+    </h1>
+  </header>
+
+  <p align="center">
+    <a href="website.html">| About Apollo |</a>&nbsp;&nbsp;   
+    <a href="branches.html">| Branches |</a>&nbsp;&nbsp; 
+    <a href="doctors.html">| Doctors |</a>&nbsp;&nbsp;
+    <a href="services.html">| Services |</a>&nbsp;&nbsp;      
+    <a href="docreg.html">| Dr SignUp |</a>&nbsp;&nbsp;   
+    <a href="drlogin.html">| Dr SignIn |</a>&nbsp;&nbsp;   
+    <a href="#">| Patient SignUp |</a>&nbsp;&nbsp;   
+    <a href="patientlogin.html">| Patient SignIn |</a>&nbsp;&nbsp;   
+    <a href="contact.html">| Contact Us |</a>
+  </p><hr>
+  
+  <form action="patientreg" method="post" name="doctorReg">
+    <table align="center" bgcolor="yellow" cellspacing="10px">
+        <h1 align="center">Patient's Registration Page</h1>
+      <tr>
+        <td>
+          <label>First Name:</label>
+          <br>
+          <input type="text" name="fname" id="fname">
+        </td>
+                <td>
+          <label>Last Name:</label>
+          <br>
+          <input type="text" name="lname" id="lname">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label>Username:</label>
+          <br>
+          <input type="text" name="username" id="username">
+        </td>
+        <td>
+          <label>Password:</label>
+          <br>
+          <input type="password" name="pass" id="pass">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label>Email Id:</label>
+          <br>
+          <input type="email" name="email" id="email">
+        </td><td>
+          <label>Mobile No.:</label>
+          <br>
+          <input type="number" name="mobile" id="mobile">
+        </td>
+      </tr>
+
+      <tr>
+
+        <td>
+          <label>Select Dr Specialization </label>
+          <br>
+          <select name="speciality" id="spec">
+            <option>select your speciality</option>
+            <option value="Cardioloist">Cardioloist</option>
+            <option value="Surgeon">Surgeon</option>
+            <option value="Ghynecologist">Ghynecologist</option>
+            <option value="Audiologist">Audiologist</option>
+            <option value="ENT">Ear Nose Teeth</option>
+            <option value="Dentist">Dentist</option>
+            <option value="Psychiatrist">Psychiatrist</option>
+          </select>
+        </td>
+
+
+        <td>
+          <label for="gender">Gender:</label>
+          <br>
+          <select name="gender" id="gender">
+            <option>Please select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+
+        <td>
+          <label>State:</label>
+          <br>
+          <select name="state" id="state">
+            <option>select your state</option>
+            <option value="Ts">Telangana</option>
+            <option value="Ap">Andhrapradesh</option>
+            <option value="ka">Karnataka</option>
+            <option value="ke">Kerala</option>
+            <option value="mh">Maharastra</option>
+          </select>
+        </td>
+        <td>
+          <label >City:</label>
+          <br>
+          <select name="city">
+            <option>select your city</option>
+            <option value="hyd">Hyderabad</option>
+            <option value="viz">Vizag</option>
+            <option value="bnglr">Banglore</option>
+            <option value="tir">Tiruvananthapur</option>
+            <option value="MUM">Mumbai</option>
+          </select>
+        </td>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td rowspan="2">
+          <label>Address:</label>
+          <br>
+          <textarea cols="20" rows="4"></textarea>
+        </td>
+
+        <td>
+          <label rowspan="1">Pincode:</label>
+          <br>
+          <input type="number">
+        </td>
+      </tr>
+      <tr align="center">
+        <td>
+          <input type="submit" value="  Register  "> &nbsp;&nbsp;&nbsp;
+          <input type="reset" value="   Clear   ">
+        </td>
+      </tr>
+
+      <tr align="center">
+        <td colspan="2">
+          Already Registered?<a href="patientlogin.html">Click here to login</a>
+        </td>
+      </tr>
+
+    </table>
+
+
+  </form>
+
+  <br><br><br>
+  <hr>
+
+  <footer align="center">
+      <font color="sky-blue">
+        <b>copyright@360Digrii</b>
+      </font>
+  </footer>
+
+</body>
+
+</html>
